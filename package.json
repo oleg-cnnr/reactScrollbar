@@ -5,7 +5,7 @@
   "main": "./dist/scrollArea.js",
   "scripts": {
     "test": "./node_modules/.bin/karma start karma.config.js --single-run --browsers PhantomJS",
-    "postinstall": "gulp build-production"
+    "postinstall": "./node_modules/.bin/gulp build-production"
   },
   "repository": {
     "type": "git",
